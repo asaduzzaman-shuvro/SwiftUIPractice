@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
-    
+
+    @EnvironmentObject var modelData: ModelData
+
     var landmark: Landmark
+
+    var landmarkIndex: Int {
+        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
     
     var body: some View {
         ScrollView {
@@ -22,8 +28,11 @@ struct LandmarkDetail: View {
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
-                Text(landmark.name)
-                    .font(.title)
+                HStack {
+                    Text(landmark.name)
+                    FavouriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                        .font(.title)
+                }
 
                 HStack {
                     Text(landmark.park)
@@ -35,19 +44,25 @@ struct LandmarkDetail: View {
 
                 Divider()
 
-                Text("About Turtle Rock")
+                Text("About \(landmark.name)")
                     .font(.title2)
-                Text("Descriptive text goes here.")
+                Text("\(landmark.description)")
             }
             .padding()
-
             Spacer()
         }
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
+    static let modelData = ModelData()
+
     static var previews: some View {
-        LandmarkDetail(landmark: landmarks[0])
+        ForEach(["iPhone SE (3nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
+            LandmarkDetail(landmark: modelData.landmarks[0])
+                .environmentObject(modelData)
+        }
     }
 }
