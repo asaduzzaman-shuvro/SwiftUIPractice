@@ -14,6 +14,24 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>WatchApp Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5C3DBC472A699D6C00CC9E57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE3E70B528632AC5000CC98E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
