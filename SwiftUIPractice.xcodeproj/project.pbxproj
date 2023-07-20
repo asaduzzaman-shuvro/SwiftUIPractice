@@ -47,6 +47,12 @@
 		5C55DF8D2A686A1400ED6DDA /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF8B2A686A1400ED6DDA /* ProfileEditor.swift */; };
 		5C55DF902A686F6E00ED6DDA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF8F2A686F6E00ED6DDA /* PageViewController.swift */; };
 		5C55DF912A686F6E00ED6DDA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF8F2A686F6E00ED6DDA /* PageViewController.swift */; };
+		5C55DF932A692B3D00ED6DDA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF922A692B3D00ED6DDA /* FeatureCard.swift */; };
+		5C55DF942A692B3D00ED6DDA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF922A692B3D00ED6DDA /* FeatureCard.swift */; };
+		5C55DF962A692CCB00ED6DDA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF952A692CCB00ED6DDA /* PageView.swift */; };
+		5C55DF972A692CCB00ED6DDA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF952A692CCB00ED6DDA /* PageView.swift */; };
+		5C55DF992A6932CE00ED6DDA /* PageControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF982A6932CE00ED6DDA /* PageControll.swift */; };
+		5C55DF9A2A6932CE00ED6DDA /* PageControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF982A6932CE00ED6DDA /* PageControll.swift */; };
 		5C8A54192A5F1A15008B1D70 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A54182A5F1A15008B1D70 /* FavouriteButton.swift */; };
 		5C8A541A2A5F1A15008B1D70 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A54182A5F1A15008B1D70 /* FavouriteButton.swift */; };
 		5C8A541E2A5F1FB0008B1D70 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A541D2A5F1FB0008B1D70 /* HexagonParameters.swift */; };
@@ -93,6 +99,9 @@
 		5C20F8BF2A63BCB100646C20 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		5C55DF8B2A686A1400ED6DDA /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		5C55DF8F2A686F6E00ED6DDA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		5C55DF922A692B3D00ED6DDA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		5C55DF952A692CCB00ED6DDA /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		5C55DF982A6932CE00ED6DDA /* PageControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControll.swift; sourceTree = "<group>"; };
 		5C8A54182A5F1A15008B1D70 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
 		5C8A541D2A5F1FB0008B1D70 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		5C8A54202A5F20CE008B1D70 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -196,6 +205,9 @@
 			isa = PBXGroup;
 			children = (
 				5C55DF8F2A686F6E00ED6DDA /* PageViewController.swift */,
+				5C55DF952A692CCB00ED6DDA /* PageView.swift */,
+				5C55DF982A6932CE00ED6DDA /* PageControll.swift */,
+				5C55DF922A692B3D00ED6DDA /* FeatureCard.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -376,6 +388,7 @@
 				5C20F8B62A63B92B00646C20 /* Profile.swift in Sources */,
 				25D0D8DD2875F33000B63CF3 /* CircleImage.swift in Sources */,
 				5C20F8A22A633D5200646C20 /* HikeGraph.swift in Sources */,
+				5C55DF932A692B3D00ED6DDA /* FeatureCard.swift in Sources */,
 				5C8A542C2A606B84008B1D70 /* Badge.swift in Sources */,
 				CE3E70C128632AC5000CC98E /* ContentView.swift in Sources */,
 				5C20F8A02A633D5200646C20 /* GraphCapsule.swift in Sources */,
@@ -389,10 +402,12 @@
 				5C20F8B92A63BA2500646C20 /* ProfileHost.swift in Sources */,
 				5C8A54262A606905008B1D70 /* BadgeSymbol.swift in Sources */,
 				CEA058782877D89800EB11A5 /* LandmarkList.swift in Sources */,
+				5C55DF962A692CCB00ED6DDA /* PageView.swift in Sources */,
 				5C20F8A62A633D5200646C20 /* HikeView.swift in Sources */,
 				5C55DF8C2A686A1400ED6DDA /* ProfileEditor.swift in Sources */,
 				5C20F8B32A6347FE00646C20 /* CategoryIem.swift in Sources */,
 				CEA0587B2877DD3700EB11A5 /* LandmarkDetail.swift in Sources */,
+				5C55DF992A6932CE00ED6DDA /* PageControll.swift in Sources */,
 				5C8A54212A5F20CE008B1D70 /* BadgeBackground.swift in Sources */,
 				5C55DF902A686F6E00ED6DDA /* PageViewController.swift in Sources */,
 				CE3E70BF28632AC5000CC98E /* SwiftUIPracticeApp.swift in Sources */,
@@ -412,6 +427,7 @@
 				5C20F8B72A63B92B00646C20 /* Profile.swift in Sources */,
 				25D0D8DE2875F33000B63CF3 /* CircleImage.swift in Sources */,
 				5C20F8A32A633D5200646C20 /* HikeGraph.swift in Sources */,
+				5C55DF942A692B3D00ED6DDA /* FeatureCard.swift in Sources */,
 				5C8A542D2A606B84008B1D70 /* Badge.swift in Sources */,
 				CE3E70C228632AC5000CC98E /* ContentView.swift in Sources */,
 				5C20F8A12A633D5200646C20 /* GraphCapsule.swift in Sources */,
@@ -425,10 +441,12 @@
 				5C20F8BA2A63BA2500646C20 /* ProfileHost.swift in Sources */,
 				5C8A54272A606905008B1D70 /* BadgeSymbol.swift in Sources */,
 				CEA058792877D89800EB11A5 /* LandmarkList.swift in Sources */,
+				5C55DF972A692CCB00ED6DDA /* PageView.swift in Sources */,
 				5C20F8A72A633D5200646C20 /* HikeView.swift in Sources */,
 				5C55DF8D2A686A1400ED6DDA /* ProfileEditor.swift in Sources */,
 				5C20F8B42A6347FE00646C20 /* CategoryIem.swift in Sources */,
 				CEA0587C2877DD3700EB11A5 /* LandmarkDetail.swift in Sources */,
+				5C55DF9A2A6932CE00ED6DDA /* PageControll.swift in Sources */,
 				5C8A54222A5F20CE008B1D70 /* BadgeBackground.swift in Sources */,
 				5C55DF912A686F6E00ED6DDA /* PageViewController.swift in Sources */,
 				CE3E70C028632AC5000CC98E /* SwiftUIPracticeApp.swift in Sources */,
