@@ -36,24 +36,26 @@
 		5C3DBC5E2A699E4C00CC9E57 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20F8982A633C5400646C20 /* Hike.swift */; };
 		5C3DBC5F2A699E5F00CC9E57 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C20F8962A633C1900646C20 /* hikeData.json */; };
 		5C3DBC602A699E5F00CC9E57 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 252FD6BC2876006C000E4B1E /* landmarkData.json */; };
-		5C3DBC612A699E7A00CC9E57 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0587A2877DD3700EB11A5 /* LandmarkDetail.swift */; };
 		5C3DBC622A699E7A00CC9E57 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0D8DC2875F33000B63CF3 /* CircleImage.swift */; };
 		5C3DBC632A699E7A00CC9E57 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA058772877D89800EB11A5 /* LandmarkList.swift */; };
 		5C3DBC642A699E7A00CC9E57 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514D03B2875FF640021A4E1 /* LandmarkRow.swift */; };
 		5C3DBC652A699E9A00CC9E57 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0D8D92875F0FC00B63CF3 /* MapView.swift */; };
 		5C3DBC662A699EAE00CC9E57 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A54182A5F1A15008B1D70 /* FavouriteButton.swift */; };
-		5C3DBC6A2A69A57000CC9E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3DBC692A69A57000CC9E57 /* Assets.xcassets */; };
 		5C55DF8C2A686A1400ED6DDA /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF8B2A686A1400ED6DDA /* ProfileEditor.swift */; };
 		5C55DF902A686F6E00ED6DDA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF8F2A686F6E00ED6DDA /* PageViewController.swift */; };
 		5C55DF932A692B3D00ED6DDA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF922A692B3D00ED6DDA /* FeatureCard.swift */; };
 		5C55DF962A692CCB00ED6DDA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF952A692CCB00ED6DDA /* PageView.swift */; };
 		5C55DF992A6932CE00ED6DDA /* PageControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55DF982A6932CE00ED6DDA /* PageControll.swift */; };
+		5C8642C92A69A7AD00AB1AA4 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8642C82A69A7AD00AB1AA4 /* LandmarkDetail.swift */; };
+		5C8642CC2A69AAEB00AB1AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8642CB2A69AAEB00AB1AA4 /* Assets.xcassets */; };
 		5C8A54192A5F1A15008B1D70 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A54182A5F1A15008B1D70 /* FavouriteButton.swift */; };
 		5C8A541E2A5F1FB0008B1D70 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A541D2A5F1FB0008B1D70 /* HexagonParameters.swift */; };
 		5C8A54212A5F20CE008B1D70 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A54202A5F20CE008B1D70 /* BadgeBackground.swift */; };
 		5C8A54262A606905008B1D70 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A54252A606905008B1D70 /* BadgeSymbol.swift */; };
 		5C8A54292A606A8C008B1D70 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A54282A606A8C008B1D70 /* RotatedBadgeSymbol.swift */; };
 		5C8A542C2A606B84008B1D70 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A542B2A606B84008B1D70 /* Badge.swift */; };
+		5CD3658C2A722C79004C8127 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3658B2A722C79004C8127 /* NotificationView.swift */; };
+		5CD3658E2A722DB3004C8127 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3658D2A722DB3004C8127 /* NotificationController.swift */; };
 		CE3E70BF28632AC5000CC98E /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E70AF28632AC4000CC98E /* SwiftUIPracticeApp.swift */; };
 		CE3E70C128632AC5000CC98E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E70B028632AC4000CC98E /* ContentView.swift */; };
 		CE3E70C328632AC5000CC98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E70B128632AC5000CC98E /* Assets.xcassets */; };
@@ -108,18 +110,21 @@
 		5C3DBC482A699D6C00CC9E57 /* WatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3DBC4C2A699D6C00CC9E57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C3DBC512A699D6D00CC9E57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5C3DBC692A69A57000CC9E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C55DF8B2A686A1400ED6DDA /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		5C55DF8F2A686F6E00ED6DDA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		5C55DF922A692B3D00ED6DDA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		5C55DF952A692CCB00ED6DDA /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		5C55DF982A6932CE00ED6DDA /* PageControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControll.swift; sourceTree = "<group>"; };
+		5C8642C82A69A7AD00AB1AA4 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		5C8642CB2A69AAEB00AB1AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C8A54182A5F1A15008B1D70 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
 		5C8A541D2A5F1FB0008B1D70 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		5C8A54202A5F20CE008B1D70 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		5C8A54252A606905008B1D70 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		5C8A54282A606A8C008B1D70 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		5C8A542B2A606B84008B1D70 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		5CD3658B2A722C79004C8127 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5CD3658D2A722DB3004C8127 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		CE3E70AF28632AC4000CC98E /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		CE3E70B028632AC4000CC98E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3E70B128632AC5000CC98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -215,8 +220,11 @@
 		5C3DBC492A699D6C00CC9E57 /* WatchApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				5C3DBC692A69A57000CC9E57 /* Assets.xcassets */,
+				5C8642CB2A69AAEB00AB1AA4 /* Assets.xcassets */,
 				5C3DBC4C2A699D6C00CC9E57 /* ContentView.swift */,
+				5CD3658B2A722C79004C8127 /* NotificationView.swift */,
+				5C8642C82A69A7AD00AB1AA4 /* LandmarkDetail.swift */,
+				5CD3658D2A722DB3004C8127 /* NotificationController.swift */,
 				5C3DBC502A699D6D00CC9E57 /* Preview Content */,
 			);
 			path = "WatchApp Watch App";
@@ -388,7 +396,7 @@
 				5C3DBC522A699D6D00CC9E57 /* Preview Assets.xcassets in Resources */,
 				5C3DBC602A699E5F00CC9E57 /* landmarkData.json in Resources */,
 				5C3DBC5F2A699E5F00CC9E57 /* hikeData.json in Resources */,
-				5C3DBC6A2A69A57000CC9E57 /* Assets.xcassets in Resources */,
+				5C8642CC2A69AAEB00AB1AA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,15 +420,17 @@
 				5C3DBC5E2A699E4C00CC9E57 /* Hike.swift in Sources */,
 				5C3DBC622A699E7A00CC9E57 /* CircleImage.swift in Sources */,
 				5C3DBC5A2A699E3200CC9E57 /* SwiftUIPracticeApp.swift in Sources */,
+				5CD3658C2A722C79004C8127 /* NotificationView.swift in Sources */,
 				5C3DBC652A699E9A00CC9E57 /* MapView.swift in Sources */,
+				5C8642C92A69A7AD00AB1AA4 /* LandmarkDetail.swift in Sources */,
 				5C3DBC5D2A699E4C00CC9E57 /* Profile.swift in Sources */,
 				5C3DBC632A699E7A00CC9E57 /* LandmarkList.swift in Sources */,
 				5C3DBC5C2A699E4C00CC9E57 /* ModelData.swift in Sources */,
 				5C3DBC4D2A699D6C00CC9E57 /* ContentView.swift in Sources */,
+				5CD3658E2A722DB3004C8127 /* NotificationController.swift in Sources */,
 				5C3DBC5B2A699E4C00CC9E57 /* Landmark.swift in Sources */,
 				5C3DBC662A699EAE00CC9E57 /* FavouriteButton.swift in Sources */,
 				5C3DBC642A699E7A00CC9E57 /* LandmarkRow.swift in Sources */,
-				5C3DBC612A699E7A00CC9E57 /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -511,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
